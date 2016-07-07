@@ -10,11 +10,6 @@ import Foundation
 
 postfix operator ++ {}
 
-postfix func ++ (inout number: Int) -> Int {
-	number += 1
-	return number
-}
-
 class ComputerPlayer: HumanPlayer {
 	
 	static var shouldSleep = false
