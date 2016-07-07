@@ -203,4 +203,7 @@ print("> Game over!")
 for (index, player) in winners.enumerate() {
 	print("\((index + 1).ordinalString) place: \(player)")
 }
-print("\((winners.count+1).ordinalString) place: \(turnOrder.first!)")
+
+if players.count > 0 {
+	print("\((winners.count+1).ordinalString) place: \(turnOrder.first!)")
+}
