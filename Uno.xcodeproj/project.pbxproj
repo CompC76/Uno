@@ -1,0 +1,313 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		542EF3841CFFD45B0080992E /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 542EF3831CFFD45B0080992E /* Card.swift */; };
+		542EF3861CFFD4850080992E /* HumanPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 542EF3851CFFD4850080992E /* HumanPlayer.swift */; };
+		542EF3881CFFD4900080992E /* Deck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 542EF3871CFFD4900080992E /* Deck.swift */; };
+		542EF38A1CFFD4E60080992E /* ComputerPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 542EF3891CFFD4E60080992E /* ComputerPlayer.swift */; };
+		542EF38C1CFFDBAA0080992E /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 542EF38B1CFFDBAA0080992E /* Color.swift */; };
+		542EF38E1CFFF3E50080992E /* Int.swift in Sources */ = {isa = PBXBuildFile; fileRef = 542EF38D1CFFF3E50080992E /* Int.swift */; };
+		542EF3901D00048C0080992E /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 542EF38F1D00048C0080992E /* Player.swift */; };
+		546182651D2556710021FCC9 /* NSString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 546182641D2556710021FCC9 /* NSString.swift */; };
+		54C461861CFF693600070B46 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C461851CFF693600070B46 /* main.swift */; };
+		54C461971CFF6A2000070B46 /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C4618D1CFF6A2000070B46 /* Array.swift */; };
+		54C461981CFF6A2000070B46 /* Misc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C4618E1CFF6A2000070B46 /* Misc.swift */; };
+		54C461991CFF6A2000070B46 /* NSFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C4618F1CFF6A2000070B46 /* NSFileManager.swift */; };
+		54C4619A1CFF6A2000070B46 /* Pluralize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C461901CFF6A2000070B46 /* Pluralize.swift */; };
+		54C4619B1CFF6A2000070B46 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C461911CFF6A2000070B46 /* String.swift */; };
+		54C461A21CFF953600070B46 /* Scanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C461A11CFF953600070B46 /* Scanner.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		54C461801CFF693600070B46 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		542EF3831CFFD45B0080992E /* Card.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		542EF3851CFFD4850080992E /* HumanPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HumanPlayer.swift; sourceTree = "<group>"; };
+		542EF3871CFFD4900080992E /* Deck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Deck.swift; sourceTree = "<group>"; };
+		542EF3891CFFD4E60080992E /* ComputerPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComputerPlayer.swift; sourceTree = "<group>"; };
+		542EF38B1CFFDBAA0080992E /* Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		542EF38D1CFFF3E50080992E /* Int.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Int.swift; sourceTree = "<group>"; };
+		542EF38F1D00048C0080992E /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		546182641D2556710021FCC9 /* NSString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSString.swift; sourceTree = "<group>"; };
+		54C461821CFF693600070B46 /* Uno */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Uno; sourceTree = BUILT_PRODUCTS_DIR; };
+		54C461851CFF693600070B46 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		54C4618D1CFF6A2000070B46 /* Array.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Array.swift; sourceTree = "<group>"; };
+		54C4618E1CFF6A2000070B46 /* Misc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Misc.swift; sourceTree = "<group>"; };
+		54C4618F1CFF6A2000070B46 /* NSFileManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSFileManager.swift; sourceTree = "<group>"; };
+		54C461901CFF6A2000070B46 /* Pluralize.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pluralize.swift; sourceTree = "<group>"; };
+		54C461911CFF6A2000070B46 /* String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		54C461A11CFF953600070B46 /* Scanner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Scanner.swift; path = ../Scanner.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		54C4617F1CFF693600070B46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		54C461791CFF693600070B46 = {
+			isa = PBXGroup;
+			children = (
+				54C4618C1CFF6A1700070B46 /* Extensions */,
+				54C461841CFF693600070B46 /* Uno */,
+				54C461831CFF693600070B46 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		54C461831CFF693600070B46 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				54C461821CFF693600070B46 /* Uno */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		54C461841CFF693600070B46 /* Uno */ = {
+			isa = PBXGroup;
+			children = (
+				54C461A11CFF953600070B46 /* Scanner.swift */,
+				54C461851CFF693600070B46 /* main.swift */,
+				542EF3831CFFD45B0080992E /* Card.swift */,
+				542EF38B1CFFDBAA0080992E /* Color.swift */,
+				542EF3851CFFD4850080992E /* HumanPlayer.swift */,
+				542EF38F1D00048C0080992E /* Player.swift */,
+				542EF3891CFFD4E60080992E /* ComputerPlayer.swift */,
+				542EF3871CFFD4900080992E /* Deck.swift */,
+			);
+			path = Uno;
+			sourceTree = "<group>";
+		};
+		54C4618C1CFF6A1700070B46 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				54C4618D1CFF6A2000070B46 /* Array.swift */,
+				54C4618E1CFF6A2000070B46 /* Misc.swift */,
+				54C4618F1CFF6A2000070B46 /* NSFileManager.swift */,
+				546182641D2556710021FCC9 /* NSString.swift */,
+				54C461901CFF6A2000070B46 /* Pluralize.swift */,
+				54C461911CFF6A2000070B46 /* String.swift */,
+				542EF38D1CFFF3E50080992E /* Int.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		54C461811CFF693600070B46 /* Uno */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54C461891CFF693600070B46 /* Build configuration list for PBXNativeTarget "Uno" */;
+			buildPhases = (
+				54C4617E1CFF693600070B46 /* Sources */,
+				54C4617F1CFF693600070B46 /* Frameworks */,
+				54C461801CFF693600070B46 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Uno;
+			productName = Uno;
+			productReference = 54C461821CFF693600070B46 /* Uno */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		54C4617A1CFF693600070B46 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Josh Birnholz";
+				TargetAttributes = {
+					54C461811CFF693600070B46 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 54C4617D1CFF693600070B46 /* Build configuration list for PBXProject "Uno" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 54C461791CFF693600070B46;
+			productRefGroup = 54C461831CFF693600070B46 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				54C461811CFF693600070B46 /* Uno */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		54C4617E1CFF693600070B46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54C461A21CFF953600070B46 /* Scanner.swift in Sources */,
+				542EF38E1CFFF3E50080992E /* Int.swift in Sources */,
+				54C4619B1CFF6A2000070B46 /* String.swift in Sources */,
+				542EF3881CFFD4900080992E /* Deck.swift in Sources */,
+				542EF3901D00048C0080992E /* Player.swift in Sources */,
+				54C461981CFF6A2000070B46 /* Misc.swift in Sources */,
+				542EF38A1CFFD4E60080992E /* ComputerPlayer.swift in Sources */,
+				546182651D2556710021FCC9 /* NSString.swift in Sources */,
+				542EF38C1CFFDBAA0080992E /* Color.swift in Sources */,
+				54C4619A1CFF6A2000070B46 /* Pluralize.swift in Sources */,
+				54C461861CFF693600070B46 /* main.swift in Sources */,
+				54C461991CFF6A2000070B46 /* NSFileManager.swift in Sources */,
+				54C461971CFF6A2000070B46 /* Array.swift in Sources */,
+				542EF3861CFFD4850080992E /* HumanPlayer.swift in Sources */,
+				542EF3841CFFD45B0080992E /* Card.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		54C461871CFF693600070B46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		54C461881CFF693600070B46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		54C4618A1CFF693600070B46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		54C4618B1CFF693600070B46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		54C4617D1CFF693600070B46 /* Build configuration list for PBXProject "Uno" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54C461871CFF693600070B46 /* Debug */,
+				54C461881CFF693600070B46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54C461891CFF693600070B46 /* Build configuration list for PBXNativeTarget "Uno" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54C4618A1CFF693600070B46 /* Debug */,
+				54C4618B1CFF693600070B46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 54C4617A1CFF693600070B46 /* Project object */;
+}
