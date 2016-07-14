@@ -17,7 +17,7 @@ enum Color {
 	static let allColors = [Blue, Red, Green, Yellow]
 	
 	static func random() -> Color {
-		switch arc4random_uniform(4) {
+		switch randomInt(within: 0..<4) {
 		case 0:
 			return .Blue
 		case 1:

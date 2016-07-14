@@ -49,7 +49,7 @@ class ComputerPlayer: HumanPlayer {
 	
 	override func showHand() {
 		print("\(name) is thinking", terminator: "")
-		let secondsToSleep = arc4random_uniform(2) + 3
+		let secondsToSleep = randomInt(within: 2...4)
 		for _ in 0..<secondsToSleep {
 			print(".", terminator: "")
 			if self.dynamicType.shouldSleep { sleep(1) }

@@ -11,10 +11,10 @@ import Foundation
 infix operator =? {}
 
 func =? (lhs: Card, rhs: Card) -> Bool {
-	var number1: Int? = nil
-	var number2: Int? = nil
-	var color1: Color? = nil
-	var color2: Color? = nil
+	var number1: Int?
+	var number2: Int?
+	var color1: Color?
+	var color2: Color?
 	
 	switch lhs {
 	case .Number(let c, let i):

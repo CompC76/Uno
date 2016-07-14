@@ -54,3 +54,7 @@ extension MutableCollectionType where Index == Int {
 		}
 	}
 }
+
+func randomInt(within range: Range<Int>) -> Int {
+	return Int(arc4random_uniform(UInt32(range.endIndex - range.startIndex))) + range.startIndex
+}

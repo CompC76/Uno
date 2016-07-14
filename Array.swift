@@ -17,7 +17,7 @@ extension Array {
 		for _ in 0 ..< amount {
 			var index = -1
 			while !selectedIndexes.contains(index) {
-				index = Int(arc4random_uniform(UInt32(self.count)))
+				index = randomInt(within: 0..<self.count)
 			}
 			selectedIndexes.append(index)
 			sample.append(self[index])
@@ -27,7 +27,7 @@ extension Array {
 	}
 	
 	var random: Element {
-		return self[Int(arc4random_uniform(UInt32(self.count)))]
+		return self[randomInt(within: 0..<self.count)]
 	}
 	
 	var flattened: [Element] {
